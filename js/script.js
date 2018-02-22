@@ -1,3 +1,4 @@
+/* Kodas skirtas css animacijai*/
 $(function(){
   let addSomeClass = 'hinge';
   $('img').on('mouseover', function (){
