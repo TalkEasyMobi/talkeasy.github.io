@@ -1,2 +1,2 @@
 # firstSite
-Here will be themes!
+Here will be themes very soon!
