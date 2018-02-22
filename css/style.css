@@ -1,0 +1,114 @@
+*{
+box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.wrapper{
+  max-width: 1200px;
+  height: 1700px;
+  margin: 0 auto;
+
+}
+.header{
+  height: 250px;
+  font-size: 1.8rem;
+  background: #0060A3 url("../img/header.jpeg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 20px;
+}
+.header h1{
+  padding-top: 30px;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: 1;
+}
+.main-nav{
+  max-width:1200px;
+  height: 58px;
+  margin: 0 auto;
+  background: #101010;
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+ul{
+   
+   height: 58px;
+   margin-top: -4px;
+}
+li{
+list-style-type: none;
+display: inline-block;
+  padding-top: 14px;
+  height: 58px;
+
+  
+}
+li:hover{
+   height: 58px;
+   background: #575757;
+   color: black;
+
+}
+
+.main-nav a{
+    text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding-left: 3px;
+  padding-right: 25px;
+  margin-left: 30px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.3s;
+   
+}
+
+.main{
+  width: 1200px;
+  height: 100%;
+  background: #93BEE7  url("../img/content_back.jpeg") no-repeat;
+  background-size: cover;
+}
+.main img{
+  padding-left: 90px;
+}
+.main .talk-easy{
+  margin: 0 auto;
+  font-size: 1.2rem;
+  
+  padding-left: 250px;
+  -webkit-animation-duration: 4s;
+  /*-webkit-animation-delay: 1s;*/
+  -webkit-animation-iteration-count: 1;
+}
+.talk-easy span{
+  color: red;
+  font-size: 1.4rem;
+}
+.footer{
+  height: 300px;
+  background: #101010;
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.coopyright{
+  margin-left: 20px;
+  flex: 0 1 200px;
+  padding-top: 20px;
+}
+.contacts{
+  flex: 0 1 auto;
+  margin-left: 40px;
+}
+.social-items{
+  order:2;
+  flex: 0 1 200px;
+}
