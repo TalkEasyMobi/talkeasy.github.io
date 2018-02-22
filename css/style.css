@@ -11,7 +11,6 @@ body{
   max-width: 1200px;
   height: 1700px;
   margin: 0 auto;
-
 }
 .header{
   height: 250px;
@@ -33,8 +32,7 @@ body{
   background: #101010;
   text-align: center;
   margin-bottom: 40px;
-  
-}
+  }
 ul{
    
    height: 58px;
@@ -45,18 +43,15 @@ list-style-type: none;
 display: inline-block;
   padding-top: 14px;
   height: 58px;
-
-  
 }
 li:hover{
    height: 58px;
    background: #575757;
    color: black;
-
 }
 
 .main-nav a{
-    text-decoration: none;
+  text-decoration: none;
   text-transform: uppercase;
   font-size: 1.2rem;
   padding-left: 3px;
@@ -65,8 +60,7 @@ li:hover{
   font-weight: 700;
   color: white;
   transition: all 0.3s;
-   
-}
+ }
 
 .main{
   width: 1200px;
@@ -80,7 +74,6 @@ li:hover{
 .main .talk-easy{
   margin: 0 auto;
   font-size: 1.2rem;
-  
   padding-left: 250px;
   -webkit-animation-duration: 4s;
   /*-webkit-animation-delay: 1s;*/
