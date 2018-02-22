@@ -1,3 +1,4 @@
+/* Pakeičiau*/
 $(function(){
   let addSomeClass = 'hinge';
   $('img').on('mouseover', function (){
